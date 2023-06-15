@@ -6,8 +6,7 @@ window.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
         const loader = document.getElementById('loader');
         loader.style.opacity = '0';
-        loader.style.visibility = 'hidden';
-    }, 5000);
+    }, 10000); // 10000 milliseconds = 10 seconds
 });
 
 document.addEventListener('contextmenu', function (event) {
