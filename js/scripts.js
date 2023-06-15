@@ -5,6 +5,7 @@
 window.addEventListener('load', function() {
     setTimeout(function() {
         document.getElementById('loader').style.display = 'none';
+        document.querySelector('body').style.visibility = 'visible';
     }, 5000);
 });
 
