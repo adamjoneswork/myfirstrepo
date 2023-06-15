@@ -13,7 +13,7 @@ header {
   .logo-svg {
     width: 70px;
     height: auto;
-    fill: #ffffff; 
+    fill: #ffffff !important; 
     stroke: none;
   }
   
