@@ -1,72 +1,75 @@
-#load-svg {
-    width: 150px;
-    height: auto;
-    animation: fadein 4s linear forwards;
-}
-
 #loader {
-    width: 150px;
-    height: 150px;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
     background-color: #0c0f16;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    opacity: 1;
     transition: opacity 2s ease-in-out;
-}
-
-@keyframes fadein {
-    to {
-        opacity: 1;
-    }
-}
-
-header {
+  }
+  
+  #load-img {
+    width: 200px;
+    height: auto;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+  @keyframes fadein {
+      to {
+          opacity: 1;
+      }
+  }
+  
+  header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
   }
-  
+    
   .logo {
-    flex-grow: 1;
-    margin-right: 300px;
-  }
-
-  .logo-svg {
-    width: 50px;
-    height: auto;
-    fill: #fff !important; 
-    stroke: none;
+    margin-left: 150px;
+    margin-right: auto;
   }
   
-  nav {
-    flex-grow: 0;
-    margin-left: 60px;
-  }
-
-  nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 60;
-  }
+    .logo-svg {
+      width: 50px;
+      height: auto;
+      fill: #fff !important; 
+      stroke: none;
+    }
+    
+    nav {
+      margin-right: 150px;
+      margin-left: auto;
+    }
   
-  nav ul li {
-    margin-right: 30px;
-  }
-
-  nav ul li a {
-    text-transform: uppercase;
-    font-family: 'Outfit', sans-serif;
-    color: #fff;
-    text-decoration: none;
-  }
-
-  body {
-    background-color: #0c0f16;
+    nav ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 60;
+    }
+    
+    nav ul li {
+      margin-right: 30px;
+    }
+  
+    nav ul li a {
+      text-transform: uppercase;
+      font-family: 'Outfit', sans-serif;
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    body {
+      background-color: #0c0f16;
+      opacity: 1;
+      transition: opacity 2s ease-in-out;
   }

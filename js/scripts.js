@@ -4,9 +4,15 @@
 
 window.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
+        const loaderSVG = document.getElementById('load-img');
+        loaderSVG.style.opacity = '1';
+    }, 1000);
+
+    setTimeout(function() {
         const loader = document.getElementById('loader');
-        loader.style.opacity = '0';
-    }, 10000); // 10000 milliseconds = 10 seconds
+        loader.style.display = 'none';
+        document.body.style.opacity = '1';
+    }, 4000);
 });
 
 document.addEventListener('contextmenu', function (event) {
