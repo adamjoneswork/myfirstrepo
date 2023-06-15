@@ -19,7 +19,7 @@ header {
   
   nav {
     flex-grow: 0;
-    margin-left: 20px;
+    margin-left: 60px;
   }
 
   nav ul {
@@ -30,11 +30,14 @@ header {
   }
   
   nav ul li {
-    margin-right: 20px;
+    margin-right: 60px;
   }
 
   nav ul li a {
     text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+    text-decoration: none;
   }
 
   body {
