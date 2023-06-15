@@ -2,10 +2,11 @@
 //     document.getElementById('loader').style.display = 'none';
 // });
 
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
     setTimeout(function() {
-        document.getElementById('loader').style.display = 'none';
-        document.querySelector('body').style.visibility = 'visible';
+        const loader = document.getElementById('loader');
+        loader.style.opacity = '0';
+        loader.style.visibility = 'hidden';
     }, 5000);
 });
 

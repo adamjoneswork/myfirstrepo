@@ -1,12 +1,6 @@
-.load-svg {
+#load-svg {
     width: 150px;
     height: auto;
-    fill: #fff;
-    stroke: none;
-  }
-  
-  #load-svg {
-    opacity: 0;
     animation: fadein 4s linear forwards;
 }
 
@@ -17,7 +11,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+    background-color: #0c0f16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
 
 @keyframes fadein {
     to {
@@ -69,15 +68,4 @@ header {
 
   body {
     background-color: #0c0f16;
-    visibility: hidden;
-  }
-  
-  #loader:not(:empty) + header,
-  #loader:not(:empty) + header + * {
-    visibility: hidden;
-  }
-  
-  #loader:empty + header,
-  #loader:empty + header + * {
-    visibility: visible;
   }
