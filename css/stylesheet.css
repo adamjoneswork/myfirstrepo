@@ -8,6 +8,11 @@ header {
   .logo {
     flex-grow: 1;
   }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
   
   nav {
     flex-grow: 0;
