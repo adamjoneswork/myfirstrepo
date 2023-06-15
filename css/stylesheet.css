@@ -1,16 +1,16 @@
-.load-svg {
-    width: 150px;
-    height: auto;
-  }
-  
 #load-svg {
     opacity: 0;
     animation: fadein 4s linear forwards;
 }
 
+#loader {
+    width: 150px;
+    height: auto;
+  }
+
 @keyframes fadein {
     to {
-        opacity: 100;
+        opacity: 1;
     }
 }
 
