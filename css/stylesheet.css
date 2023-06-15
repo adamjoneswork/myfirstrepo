@@ -7,6 +7,7 @@ header {
   
   .logo {
     flex-grow: 1;
+    margin-right: 20px;
   }
 
   .logo img {
@@ -16,8 +17,9 @@ header {
   
   nav {
     flex-grow: 0;
+    margin-left: 20px;
   }
-  
-body {
+
+  body {
     background: #0c0f16;
 }
