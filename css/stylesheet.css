@@ -1,3 +1,8 @@
+.load-svg {
+    width: 150px;
+    height: auto;
+  }
+  
 #load-svg {
     opacity: 0;
     animation: fadein 2s linear forwards;
