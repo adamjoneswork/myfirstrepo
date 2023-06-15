@@ -1,5 +1,11 @@
+// window.addEventListener('load', function() {
+//     document.getElementById('loader').style.display = 'none';
+// });
+
 window.addEventListener('load', function() {
-    document.getElementById('loader').style.display = 'none';
+    setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+    }, 5000);  // Delay hiding the loader for 5000ms (or 5 seconds)
 });
 
 document.addEventListener('contextmenu', function (event) {
