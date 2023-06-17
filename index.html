@@ -1,41 +1,223 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Adam Jones | Home</title>
+<head>
+  <title>Adam Jones | Home</title>
 
-        <meta name="keywords" content="Adam Jones, Adam Jones Design, UX, UI" />
-        <meta name="description" content="Adam Jones | UX/UI Designer" />
-        <meta name="author" content="Adam Jones" />
+  <meta name="keywords" content="Adam Jones, Adam Jones Design, UX, UI" />
+  <meta name="description" content="Adam Jones | UX/UI Designer" />
+  <meta name="author" content="Adam Jones" />
 
-        <link rel="shortcut icon" href="img/favicon.ico" />
-        <link rel="stylesheet" href="css/stylesheet.css" />
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="css/stylesheet.css" />
+  <script src="https://kit.fontawesome.com/3c376f2407.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
-
-        <script defer src="https://analytics.launch.bz/pixel/92mX1Yw3i5WfA8H1"></script>
-        <script src="js/scripts.js"></script>
-    </head>
-    <body>
-      <div id="loader">
-        <img id="load-img" src="img/logo.png">
+  <script defer src="https://analytics.launch.bz/pixel/92mX1Yw3i5WfA8H1"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div id="loader">
+    <img id="load-img" src="img/logo.png">
+  </div>
+  <header>
+    <div class="logo">
+      <img id="logo-svg" class="logo-svg" src="img/logo.svg">
+    </div>
+    <nav>
+      <ul>
+        <li class="active"><a href="./index">Home</a></li>
+        <li><a href="./portfolio">Portfolio</a></li>
+        <li><a href="./contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <div class="flex-container">
+      <div class="flex-item">
+        <div class="headline">
+        <h2>blending a creative background with tech expertise</h2>
+        <h1>Hey, I'm Adam Jones</h1>
+        <h2 class="right-align">the theatrically trained, certified UX/UI designer</h2>
+        </div>
       </div>
-        <header>
-            <div class="inline-block">
-              <div class="logo">
-                <a href="./index">
-                  <img id="logo-svg" class="logo-svg" src="img/logo.svg">
-                </a>
+      <div class="flex-item">
+        <h3>Latest Works</h3>
+        <h5 class="right-align">See More ></h5>
+      </div>
+    </div>
+  <div class="flex-container">
+    <div class="about-wrapper">
+      <div class="about-card glass">
+        <div class="about-card-cont">
+          <h4>About Me</h4>
+          <p>I'm Adam, a passionate UX/UI designer with a focus on creating exceptional user experiences. With a degree in Drama, Theatre, and Performance, I bring a unique blend of creativity and technical expertise to my design work.</p>
+          <p>Trained and certified in UX/UI at the University of Birmingham, I've developed a deep understanding of the design process. From user research to wireframing and prototyping, I excel in crafting intuitive and user-centered designs. Driven by my love for technology and aesthetics, I constantly seek innovative ways to enhance usability and delight users.</p>
+          <p>Connect with me to collaborate or inquire further. Let's craft exceptional user experiences together.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex-container-proj">
+      <div class="project-container">
+        <div class="project-item">
+          <div class="project-card glass project-card__img">
+            <img src="/img/chaldon.jpg" alt="Non-Proft Responsive Redesign">
+              <div class="project-card__footer">
+              <span class="project-card__title">Chaldon Animal Sanctuary</span>
+              <span class="project-card__info">Non-Profit Responsive Redesign</span>
               </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-card glass project-card__img">
+            <img src="/img/mindlink.jpg" alt="Mental Wellness App">
+              <div class="project-card__footer">
+                <span class="project-card__title">MINDLINK</span>
+                <span class="project-card__info">Mental Wellness iOS App</span>
               </div>
-            <nav class="inline-block">
-                <ul>
-                    <li><a href="./index">Home</a></li>
-                    <li><a href="./portfolio">Portfolio</a></li>
-                    <li><a href="./contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    </body>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-card glass project-card__img">
+            <img src="/img/edgov.jpg" alt="Project 3 Image">
+              <div class="project-card__footer">
+                <span class="project-card__title">ed.gov</span>
+                <span class="project-card__info">Government Agency RWD</span>
+              </div>
+          </div>
+        </div>
+        <div class="about-card glass">
+          <div class="about-card-cont">
+            <p class="quote">"My goal is to make a positive impact through design, solving real-world problems and improving the lives of users. I'm excited to bring my skills and creativity to create remarkable experiences."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="tools">
+  <div class="tools-container">
+    <h6 class="center-align">Tools I Use</h6>
+  </div>
+  <div class="cards-container">
+    <div class="card glass">
+      <img src="/img/tools/figma.png">
+      <div class="card-content">
+        <h3 class="card-title">Figma</h3>
+        <p class="card-description">UI Design, prototyping</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/XD.png">
+      <div class="card-content">
+        <h3 class="card-title">XD</h3>
+        <p class="card-description">UI Design, prototyping</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/maze.png">
+      <div class="card-content">
+        <h3 class="card-title">Maze</h3>
+        <p class="card-description">Product research, testing</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/miro.png">
+      <div class="card-content">
+        <h3 class="card-title">Miro</h3>
+        <p class="card-description">Brainstorming, collaboration</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/illustrator.png">
+      <div class="card-content">
+        <h3 class="card-title">Illustrator</h3>
+        <p class="card-description">Graphic design</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/photoshop.png">
+      <div class="card-content">
+        <h3 class="card-title">Photoshop</h3>
+        <p class="card-description">Mockups</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/vsc.png">
+      <div class="card-content">
+        <h3 class="card-title">VS Code</h3>
+        <p class="card-description">Code editing</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/invision.png">
+      <div class="card-content">
+        <h3 class="card-title">InVision</h3>
+        <p class="card-description">Collaboration</p>
+      </div>
+    </div>
+    <div class="card glass">
+      <img src="/img/tools/trello.png">
+      <div class="card-content">
+        <h3 class="card-title">Trello</h3>
+        <p class="card-description">Project Management</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="skills">
+  <div class="skills-container">
+    <h6 class="center-align">My Skills</h6>
+  </div>
+  <div class="skills-cards-container">
+    <div class="skills-card">
+      <h3 class="skills-card-title">Design</h3>
+      <p class="skills-card-description">User Experience (UX), User Interface (UI), Information Architecture, Visual Design, Interaction Design, Prototyping, Wireframing, Testing, Design Systems, Responsive Design, Typography, Web Design, Mobile Design, Design Thinking</p>
+    </div>
+    <div class="skills-card">
+      <h3 class="skills-card-title">Research/Analysis</h3>
+      <p class="skills-card-description">User Research, Persona Development, Usability Testing, Competitive Analysis, Data-driven Decision Making, A/B Testing, Qualitative and Quantitative Research Methods</p>
+    </div>
+    <div class="skills-card">
+      <h3 class="skills-card-title">Development</h3>
+      <p class="skills-card-description">Responsive Web Design, HTML, CSS, JavaScript, Bootstrap, PHP</p>
+    </div>
+    <div class="skills-card">
+      <h3 class="skills-card-title">Collaboration</h3>
+      <p class="skills-card-description">Teamwork, Project Management, Client Communication, Presentations and Pitching, Agile Methodologies</p>
+    </div>
+    <div class="skills-card">
+      <h3 class="skills-card-title">Transferable</h3>
+      <p class="skills-card-description">Customer Service, Team Management, Leadership, Problem Solving, Time Management, Data Analysis</p>
+    </div>
+  </div>
+</section>
+<section class="footer">
+  <div class="footer-container">
+    <h6 class="footer-message">
+      <span class="secondary-text">Let's</span>
+      <span class="highlight-text">Connect</span>
+    </h6>
+    <p class="footer-submessage">and craft exceptional user experiences together</p>
+    <div class="footer-icons">
+      <a href="/contact" class="footer-icon">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+      <a href="https://dribbble.com/adamjoneswork" target="_blank" class="footer-icon">
+        <i class="fab fa-dribbble"></i>
+      </a>
+      <a href="https://www.behance.net/adamjoneswork" target="_blank" class="footer-icon">
+        <i class="fab fa-behance"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/adamjoneswork" target="_blank" class="footer-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <p class="footer-copyright">
+      &copy; 2023 Adam Jones. All rights reserved.
+    </p>
+  </div>
+</section>
+</body>
 </html>
