@@ -40,6 +40,7 @@ www.adamjones.work
 
 body {
   background-image: url('../img/bg.jpg');
+  cursor: url("../img/cursor.png"), auto !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -87,6 +88,7 @@ h5 {
   font-family: 'DM Sans', sans-serif;
   color: #ffffff;
   font-size: 14px;
+  cursor: url("../img/hover.png"), auto !important;
 }
 
 h6 {
@@ -131,6 +133,7 @@ nav ul li a {
   color: #fff;
   font-family: 'Outfit', sans-serif;
   text-transform: uppercase;
+  cursor: url("../img/hover.png"), auto !important;
 }
 
 nav .active a {
@@ -233,6 +236,7 @@ nav .active a::after {
   overflow: hidden;
   color: #000;
   transform: translateZ(0);
+  cursor: url("../img/hover.png"), auto !important;
 }
 
 .project-card img {
@@ -468,6 +472,7 @@ body {
   color: white;
   font-size: 40px;
   margin: 0 25px;
+  cursor: url("../img/hover.png"), auto !important;
 }
 
 .footer-copyright {
